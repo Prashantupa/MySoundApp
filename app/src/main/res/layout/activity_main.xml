@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/newbck1"
+        />
+
+
+
+
+    <TextView
+        android:id="@+id/lang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Your Language!"
+        android:textSize="32sp"
+        android:textStyle="bold|italic"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="40dp"
+        android:textColor="#F80404"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/english"
+        android:background="@drawable/custombutton"
+        android:layout_below="@+id/lang"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="100dp"
+        android:text="English"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hindi"
+        android:layout_below="@+id/lang"
+        android:background="@drawable/custombutton"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="220dp"
+        android:text="HINDI"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="40dp"
+        android:text="#choose your Language to listen your favorite &#10;                                                  Sounds"/>
+
+
+
+</RelativeLayout>
